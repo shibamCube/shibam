@@ -1,0 +1,35 @@
+	CREATE TABLE FORM_DETAILS(
+		firstName varchar(10) NOT NULL,
+		lastName varchar(10) NOT NULL,
+		Address varchar(50),
+		email varchar(20) NOT NULL,
+		password varchar(20) NOT NULL,
+		age varchar(20),
+		machines varchar(50),
+		PRIMARY KEY(email)
+	)
+
+	
+CREATE TABLE ADMIN(
+		firstName varchar(10) NOT NULL,
+		lastName varchar(10) NOT NULL,
+		Address varchar(50),
+		email varchar(20) NOT NULL,
+		password varchar(20) NOT NULL,
+		age varchar(20),
+		machines varchar(50),
+		PRIMARY KEY(email)
+)
+
+
+
+INSERT INTO FROM_DETAILS (firstName, lastName, Address, email, password,age)
+VALUES ($_POST[firstName], $_POST[lastName], $_POST[Address],$_POST[email],$_POST[password],$_POST[age])
+
+
+SELECT email FROM ADMIN WHERE email='$email'
+
+UPDATE FROM_DETAILS
+SET password = 
+WHERE email = 1;
+
