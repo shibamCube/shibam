@@ -1,24 +1,18 @@
 <html>
-<head>
+	<head>
 
-<style>
-	h1
-	{
-		text-align: center;
-	}
-	body{
-  background-color: lightblue;
-  text-align: left;
-	}
-	
-</style>
-</head>
+		<link rel="stylesheet" href="style.css">
+	</head>
 
-<body>
-<form action="reset_password.php" method="post">
-<br>
-enter your registered email<input type="email" name="email" required><br><br>
-<input type="submit">
-</form>
-</body>
+	<body>
+		<form action="reset_password.php" method="post">
+			<div class="sh4">
+				<br>
+				<label>enter your registered email</label><br><br>
+				<input type="email" name="email" required><br><br><br><br>
+				<input type="submit">
+				<br><br>
+			</div>
+		</form>
+	</body>
 </html>
